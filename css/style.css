@@ -1,0 +1,345 @@
+/* familia tipográfica: 'Montserrat', sans-serif; */
+html{
+    height:100%;
+}
+
+main {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+.tituloPrincipal {
+    color: #000000;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.loginMain{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style: circle;
+}
+
+.tituloDestacado {
+    color: #030303;
+    font-weight: bold;
+    font-size: 30px;
+    /* text-decoration: underline */
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 8, 8);
+    margin: 0%;
+    background-color: #FFDEE9 !important;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100% no-repeat) !important;
+    height: 100%;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+
+}
+
+.textoIndex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.imgDioses {
+
+    margin-top: 2rem;
+
+}
+
+
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.container img {
+    border-style: solid;
+    border-color: rgb(15, 15, 15);
+    border-radius: 20px;
+}
+
+
+span {
+    text-align: justify;
+    font-size: 1.5rem
+}
+
+/* .imgTitulo{
+    background-image: url(https://webcdn.hirezstudios.com/smite/v3/img/smite_website_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+.nameDioses {
+    color: #ffffff;
+}
+
+.piePagina {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+.piePagina img {
+    width: 50px;
+    height: 50px;
+
+}
+
+/* .formulario {
+    margin: 2rem;
+    text-align: center;
+} */
+
+
+
+.quienesSomos {
+    margin: 32px;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+/* #tituloPrincipal {
+    color: rgb(255, 0, 170);
+} */
+
+/* .text {
+    height: 200px;
+}
+
+.image {
+
+    height: 300px;
+    width: 200px;
+}
+img{
+    display: none;
+}
+
+.image:hover .text {
+
+    display: none;
+}
+.image:hover img {
+
+    display: block;
+
+
+} */
+
+/* .image:hover .text {
+    display: block;
+}
+
+.image:hover img{
+
+
+display: none ;
+
+
+
+} */
+
+.botones {
+    padding: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.imagenesDioses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+}
+
+article {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+}
+
+form .email {
+    padding: 20px;
+}
+
+form .asunto {
+    padding: 8px;
+}
+form .mensaje {
+    padding: 10px;
+}
+
+form .pregunta {
+    padding: 10px;
+}
+form .genero {
+    padding: 10px;
+}
+form{
+    text-align: center;
+    padding: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.piePagina {
+    padding: 50px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+.formulario input {
+    border-radius: 10px;
+    /* height: 40px; */
+    padding: 8px;
+}
+
+.formulario .datos {
+    padding: 15px;
+}
+
+@media only screen and (max-width: 980px) {
+
+    /* INICIO */
+
+    header h1{
+        text-align: initial;
+    }
+    header .botones {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    
+    .container p {
+        /* text-align: initial; */
+        display: none;
+    }
+
+    .container img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .piePagina  a{
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .piePagina h2 {
+        display: none;
+    }
+
+
+    /* DIOSES */
+
+    .tituloPrincipal {
+        text-align: center;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+
+    .imagenesDioses {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imagenesDioses img {
+        display: block;
+        margin: auto    ;
+        width: 300px;
+        height: 300px;
+    }
+
+    section span {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* QUIENES SOMOS */
+
+    .quienesSomos h2 {
+        text-align: center;
+        font-size: 30px;
+        padding: 50px;
+    }
+
+
+}

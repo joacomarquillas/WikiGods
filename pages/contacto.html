@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="loginMain">
+    <header>
+
+        <h1 class="tituloPrincipal">Seccion Contacto</h1>
+
+        <div class="botones">
+
+            <a href="../index.html">Inicio</a>
+            <a href="./dioses.html">Dioses</a>
+            <a href="./contacto.html">Contacto</a>
+            <a href="./quienes.html">Quienes Somos</a>
+            <a href="./login.html">Iniciar Sesion</a>
+
+        </div>
+
+
+
+
+    </header>
+
+
+    <form class="formulario" action="">
+        <div class="nombre">
+            <label for="nombre-usuario">Nombre y Apellido:</label>
+            <input type="text" id="nombre-usuario" placeholder="Amor Amor" required>
+        </div>
+
+        <div class="email">
+            <label for="email-usuario">Email:</label>
+            <input type="email" id="email-usuario" placeholder="amoramor@gmail.com" required>
+        </div>
+
+        <div class="asunto">
+            <label for="asunto-usuario">Seleccione el asunto del mensaje:</label>
+            <select name="" id="asunto-usuario">
+                <option value="consulta">Consulta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+
+        <div class="mensaje">
+            <label for="mensaje-usuario">Ingrese su mensaje:</label>
+            <textarea name="" id="mensaje-usuario" cols="30 " rows="10"></textarea>
+        </div>
+
+        <div class="pregunta">
+            <label for="novedades">¿Desea recibir novedades?</label>
+            <input type="checkbox" id="novedades" value="aceptar novedades">
+        </div>
+
+        <div class="genero">
+            <span>Ingrese su genero: </span>
+
+            <label for="genero-hombre">Hombre</label>
+            <input type="radio" name="genero" id="genero-hombre">
+
+            <label for="genero-mujer">Mujer</label>
+            <input type="radio" name="genero" id="genero-mujer">
+
+            <label for="genero-no">Prefiero no decirlo</label>
+            <input type="radio" name="genero" id="genero-no">
+        </div>
+
+        <div>
+            <!-- <input type="submit" value="Enviar"> -->
+            <button type="button" class="btn btn-outline-dark m-sm-4 ">Enviar</button>
+            <!-- <input type="reset" value="Resetear consulta"> -->
+            <button type="button" class="btn btn-outline-danger">Resetear</button>
+        </div>
+
+    </form>
+
+    <footer class="piePagina">
+
+        <h2>Seguinos en nuestras redes sociales: </h2>
+        <a href="#">
+            <img src="../img/logosfooter/logo-de-facebook.png" alt="Facebook">
+        </a>
+        <a href="#">
+            <img src="../img/logosfooter/logotipo-de-twitter.png" alt="Twitter">
+        </a>
+        <a href="#">
+            <img src="../img/logosfooter/logotipo-de-pinterest.png" alt="Pinterest">
+        </a>
+
+    </footer>
+    </main>
+
+</body>
+
+</html>
